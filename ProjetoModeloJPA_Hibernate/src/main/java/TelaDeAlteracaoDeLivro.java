@@ -26,15 +26,15 @@ public class TelaDeAlteracaoDeLivro {
                 String editora = scanner.next();
                 livro.setEditora(editora);
 
-                System.out.println("Digite a nova paginas do livro:");
+                System.out.println("Digite as novas páginas do livro:");
                 Integer paginas = Integer.valueOf(scanner.next());
                 livro.setPaginas(paginas);
 
-                System.out.println("Digite a nova ano do livro:");
+                System.out.println("Digite o novo ano do livro");
                 Integer ano = Integer.valueOf(scanner.next());
                 livro.setAno(ano);
 
-                System.out.println("Digite a nova edicao do livro:");
+                System.out.println("Digite a nova edição do livro:");
                 Integer edicao = Integer.valueOf(scanner.next());
                 livro.setEdicao(edicao);
 
