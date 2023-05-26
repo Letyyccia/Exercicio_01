@@ -13,13 +13,13 @@ public class TelaDeCadastroDeLivro {
         System.out.println("Digite a editora do livro:");
         String editora = scanner.nextLine();
 
-        System.out.println("Digite o numero de paginas do livro:");
+        System.out.println("Digite o número de paginas do livro:");
         Integer paginas = Integer.valueOf(scanner.nextLine());
 
         System.out.println("Digite o ano do livro:");
         Integer ano = Integer.valueOf(scanner.nextLine());
 
-        System.out.println("Digite a edicao do livro:");
+        System.out.println("Digite a edição do livro:");
         Integer edicao = Integer.valueOf(scanner.nextLine());
 
 
